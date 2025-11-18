@@ -1,0 +1,902 @@
+[
+  {
+    "id": "AK-HCR3",
+    "billNumber": "AK HCR3",
+    "state": "Alaska",
+    "status": "Introduced",
+    "lastUpdated": "2025-05-16",
+    "summary": "Ai Legislative Task Force",
+    "originalLink": "https://legiscan.com/AK/text/HCR3/id/3210303/Alaska-2025-HCR3-Comm_Sub.pdf",
+    "title": "CS FOR HOUSE CONCURRENT RESOLUTION NO. 3(CRA)",
+    "dateIntroduced": "2025-04-11",
+    "scope": "This bill applies to the state government of Alaska and its operations, as well as the broader implications of artificial intelligence on public services, economic development, and data security. It aims to address the integration of AI across various sectors including public safety, transportation, healthcare, and education.",
+    "modelsCovered": "The bill covers a diverse set of artificial intelligence tools and technologies, including expert systems, machine learning, generative agents, and new hardware platforms and software systems. It focuses on the development, implementation, and regulation of these technologies within the state.",
+    "keyRequirements": [
+      "Create a set of common terms and definitions for future legislation.",
+      "Evaluate current and potential applications and costs of artificial intelligence in state government operations.",
+      "Assess economic opportunities associated with artificial intelligence development.",
+      "Investigate ethical, legal, and privacy concerns related to AI use.",
+      "Explore workforce implications and the need for training programs.",
+      "Recommend policies and legislation for responsible and secure use of AI.",
+      "Develop a long-term strategic plan and recommended budgets for AI innovation."
+    ],
+    "sponsor": "REPRESENTATIVES RAUSCHER, Costello"
+  },
+  {
+    "id": "AK-SB2",
+    "billNumber": "AK SB2",
+    "state": "Alaska",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-22",
+    "summary": "An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.",
+    "originalLink": "https://legiscan.com/AK/text/SB2/id/3049420/Alaska-2025-SB2-Introduced.pdf",
+    "title": "An Act relating to disclosure of election-related deepfakes; relating to use of artificial intelligence by state agencies; and relating to transfer of data about individuals between state agencies.",
+    "dateIntroduced": "2025-01-10",
+    "scope": "This bill applies to individuals and state agencies in Alaska. It specifically addresses the use of artificial intelligence in state agency operations and mandates disclosure requirements for election-related communications that involve deepfakes. It also regulates the transfer of personal data between state agencies.",
+    "modelsCovered": "The bill covers generative artificial intelligence systems used by state agencies for consequential decisions. It includes provisions for impact assessments and the use of AI in making decisions that affect individuals' legal rights, employment, finances, health, or licensure.",
+    "keyRequirements": [
+      "State agencies must conduct an inventory of all systems employing generative artificial intelligence every two years.",
+      "A disclosure statement must be included in election-related communications that involve deepfakes.",
+      "State agencies must obtain consent from individuals before soliciting sensitive personal data.",
+      "Impact assessments must be conducted at least once every two years for AI systems used in consequential decisions.",
+      "Individuals must be notified before their data is transferred between state agencies."
+    ],
+    "sponsor": "Senator Hughes"
+  },
+  {
+    "id": "AL-HB515",
+    "billNumber": "AL HB515",
+    "state": "Alabama",
+    "status": "Introduced",
+    "lastUpdated": "2025-04-03",
+    "summary": "Artificial intelligence; regulate use in health coverage decisions",
+    "originalLink": "https://legiscan.com/AL/text/HB515/id/3200577/Alabama-2025-HB515-Introduced.pdf",
+    "title": "An Act Relating to Health Insurance; to Regulate the Use by Insurers of Artificial Intelligence in Making Coverage Determinations; to Require that a Health Care Professional Make an Insurer's Determination of Medical Necessity for Treatments; and to Provide a Civil Action for Persons Who Claim Injury Due to Use of Artificial Intelligence by an Insurer.",
+    "dateIntroduced": "2025-04-03",
+    "scope": "This bill applies to health insurers operating in Alabama that issue, deliver, or renew health benefit plans. It also pertains to health care professionals involved in making coverage determinations and individuals enrolled in health benefit plans.",
+    "modelsCovered": "The bill covers machine-based systems that utilize artificial intelligence, including software or hardware that performs tasks requiring human-like perception and cognition. It specifically addresses the use of AI in utilization management or utilization review functions by health insurers.",
+    "keyRequirements": [
+      "The decision to cover or deny treatment must be made by a competent health care professional.",
+      "Health insurers must disclose the use of artificial intelligence in making coverage determinations to enrollees and network health care providers.",
+      "Insurers must use relevant clinical information and the patient's unique clinical circumstances when making coverage determinations.",
+      "AI-based determinations must not be based solely on group datasets or ignore health care provider decision-making.",
+      "Insurers must periodically review the outcomes generated by AI tools, including denial rates.",
+      "Patient data used in AI functions must comply with HIPAA regulations."
+    ],
+    "sponsor": "Representative Shirey"
+  },
+  {
+    "id": "AR-HB1504",
+    "billNumber": "AR HB1504",
+    "state": "Arkansas",
+    "status": "Failed",
+    "lastUpdated": "2025-05-05",
+    "summary": "To Create The Offense Of Manufacturing, Modifying, Selling, Transferring, Or Operating A Robotic Device Or An Uncrewed Aircraft That Is Equipped Or Mounted With A Weapon.",
+    "originalLink": "https://legiscan.com/AR/text/HB1504/id/3126287/Arkansas-2025-HB1504-Draft.pdf",
+    "title": "AN ACT TO CREATE THE OFFENSE OF MANUFACTURING, MODIFYING, SELLING, TRANSFERRING, OR OPERATING A ROBOTIC DEVICE OR AN UNCREWED AIRCRAFT THAT IS EQUIPPED OR MOUNTED WITH A WEAPON; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-02-17",
+    "scope": "This bill applies to individuals and entities involved in the manufacturing, modifying, selling, transferring, or operating of robotic devices and uncrewed aircraft that are equipped or mounted with a weapon. It includes provisions for defense industrial companies under contract with the Department of Defense and robotics companies that obtain waivers from the Attorney General.",
+    "modelsCovered": "The bill covers robotic devices capable of locomotion, navigation, or movement on the ground, and uncrewed aircraft that operate without direct human operation. It specifically addresses devices that are equipped or mounted with weapons designed to threaten or cause harm to individuals.",
+    "keyRequirements": [
+      "It is unlawful to manufacture, modify, sell, transfer, or operate a robotic device or uncrewed aircraft equipped with a weapon.",
+      "It is unlawful to use a robotic device or uncrewed aircraft to commit offenses such as terroristic threatening or harassment.",
+      "A law enforcement agency must obtain a warrant before deploying a robotic device onto private property or for surveillance.",
+      "Exceptions exist for defense industrial companies under contract with the Department of Defense and for individuals acting in the public performance of their duties."
+    ],
+    "sponsor": "Representative S. Meeks"
+  },
+  {
+    "id": "AR-HB1876",
+    "billNumber": "AR HB1876",
+    "state": "Arkansas",
+    "status": "Enacted",
+    "lastUpdated": "2025-04-21",
+    "summary": "Regarding The Ownership Of Model Training And Content Generated By A Generative Artificial Intelligence Tool.",
+    "originalLink": "https://legiscan.com/AR/text/HB1876/id/3218145/Arkansas-2025-HB1876-Chaptered.pdf",
+    "title": "AN ACT REGARDING THE OWNERSHIP OF MODEL TRAINING AND CONTENT GENERATED BY A GENERATIVE ARTIFICIAL INTELLIGENCE TOOL; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-04-21",
+    "scope": "This bill applies to individuals who use generative artificial intelligence tools to generate content or conduct model training. It also addresses the ownership rights of employers over content created by employees using such tools in the course of their employment.",
+    "modelsCovered": "The bill covers generative artificial intelligence tools that are used for generating content and conducting model training. It specifies ownership rights related to the output generated by these tools based on the input provided by users.",
+    "keyRequirements": [
+      "The person providing input to the AI tool owns the generated content unless it infringes on existing copyrights.",
+      "The person providing data for model training owns the resulting trained model, provided the data is lawfully acquired.",
+      "If an employee is directed to use the AI tool as part of their job, the employer owns the resulting content and model training data."
+    ],
+    "sponsor": "Representative R. Scott Richardson"
+  },
+  {
+    "id": "AR-HB1935",
+    "billNumber": "AR HB1935",
+    "state": "Arkansas",
+    "status": "Enacted",
+    "lastUpdated": "2025-04-17",
+    "summary": "To Create A Modernization And Automation Tax Credit To Encourage Investment By Existing Businesses Within The State.",
+    "originalLink": "https://legiscan.com/AR/text/HB1935/id/3216777/Arkansas-2025-HB1935-Chaptered.pdf",
+    "title": "AN ACT TO AMEND THE CONSOLIDATED INCENTIVE ACT OF 2003; TO CREATE A MODERNIZATION AND AUTOMATION TAX CREDIT TO ENCOURAGE INVESTMENT BY EXISTING BUSINESSES WITHIN THE STATE; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-04-08",
+    "scope": "This bill applies to Arkansas businesses that have been in continuous operation in the state for at least two years and are seeking to invest a minimum of twenty-five million dollars in project costs. It is targeted at existing businesses looking to modernize and automate their operations.",
+    "modelsCovered": "The bill does not specifically mention AI models, systems, or technologies. However, it implies that businesses may invest in technologies related to modernization and automation as part of their project costs.",
+    "keyRequirements": [
+      "Businesses must incur a minimum of twenty-five million dollars in project costs.",
+      "Businesses must hold a direct-pay sales and use tax permit before submitting an application for incentives.",
+      "Businesses must maintain the current yearly average level of payroll and employment during the project and for twenty-four months after its termination.",
+      "The project must be completed within six years from the execution of the financial incentive agreement.",
+      "Businesses must submit an application for the tax credit before incurring any project costs."
+    ],
+    "sponsor": "Representative Eaves"
+  },
+  {
+    "id": "AR-HB1958",
+    "billNumber": "AR HB1958",
+    "state": "Arkansas",
+    "status": "Enacted",
+    "lastUpdated": "2025-04-17",
+    "summary": "To Require Public Entities To Create A Policy Concerning The Authorized Use Of Artificial Intelligence.",
+    "originalLink": "https://legiscan.com/AR/text/HB1958/id/3217014/Arkansas-2025-HB1958-Chaptered.pdf",
+    "title": "AN ACT TO REQUIRE PUBLIC ENTITIES TO CREATE A POLICY CONCERNING THE AUTHORIZED USE OF ARTIFICIAL INTELLIGENCE; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-04-09",
+    "scope": "This bill applies to public entities in Arkansas, which are defined as instrumentalities funded in whole or in part by taxpayer funds. This includes various departments, political subdivisions, public school districts, and institutions of higher education.",
+    "modelsCovered": "The bill covers artificial intelligence systems that can make predictions, recommendations, or decisions based on human-defined objectives. It also includes automated decision tools specifically developed to influence consequential decisions.",
+    "keyRequirements": [
+      "Create a technology resources policy defining the authorized use of technology resources.",
+      "Develop a cybersecurity policy based on standards set by the State Cybersecurity Office.",
+      "Create an artificial intelligence and automated decision tool policy defining their authorized use.",
+      "Require an authorized human employee to make final decisions regardless of AI recommendations.",
+      "Develop a training program for all employees regarding the technology resources policy and the AI policy."
+    ],
+    "sponsor": "Representative S. Meeks"
+  },
+  {
+    "id": "AR-HB1816",
+    "billNumber": "AR HB1816",
+    "state": "Arkansas",
+    "status": "Introduced",
+    "lastUpdated": "2025-04-14",
+    "summary": "To Prohibit Healthcare Providers And Healthcare Insurers From Using Artificial Intelligence In The Delivery Of Healthcare Services Or The Generation Of Medical Records Unless Certain Requirements Are Met.",
+    "originalLink": "https://legiscan.com/AR/text/HB1816/id/3178301/Arkansas-2025-HB1816-Draft.pdf",
+    "title": "AN ACT TO PROHIBIT HEALTHCARE PROVIDERS AND HEALTHCARE INSURERS FROM USING ARTIFICIAL INTELLIGENCE IN THE DELIVERY OF HEALTHCARE SERVICES OR THE GENERATION OF MEDICAL RECORDS UNLESS CERTAIN REQUIREMENTS ARE MET; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-03-17",
+    "scope": "This bill applies to healthcare providers and healthcare insurers operating in the state of Arkansas. It regulates the use of artificial intelligence in healthcare services and medical record generation, ensuring that such entities adhere to specific requirements.",
+    "modelsCovered": "The bill covers machine-based systems that can make predictions, recommendations, or decisions influencing real or virtual environments, specifically in the context of healthcare delivery and medical records. It addresses the use of artificial intelligence technologies by healthcare entities.",
+    "keyRequirements": [
+      "Artificial intelligence must be approved by the United States Food and Drug Administration.",
+      "Artificial intelligence must be verified by a quality assurance laboratory.",
+      "Healthcare providers and insurers are prohibited from using AI in healthcare services or medical records unless the above conditions are met."
+    ],
+    "sponsor": "Representative L. Johnson"
+  },
+  {
+    "id": "AR-HB1297",
+    "billNumber": "AR HB1297",
+    "state": "Arkansas",
+    "status": "Introduced",
+    "lastUpdated": "2025-04-01",
+    "summary": "Concerning Artificial Intelligence, Algorithms, And Other Automated Technologies; And To Regulate Certain Practices Of Healthcare Insurers.",
+    "originalLink": "https://legiscan.com/AR/text/HB1297/id/3088585/Arkansas-2025-HB1297-Draft.pdf",
+    "title": "AN ACT CONCERNING ARTIFICIAL INTELLIGENCE, ALGORITHMS, AND OTHER AUTOMATED TECHNOLOGIES; TO REGULATE CERTAIN PRACTICES OF HEALTHCARE INSURERS; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-01-29",
+    "scope": "This bill applies to healthcare insurers offering health benefit plans in the state of Arkansas. It regulates the use of artificial intelligence and automated technologies in healthcare decision-making processes, ensuring compliance with privacy and data accessibility standards.",
+    "modelsCovered": "The bill covers artificial intelligence-based algorithms used in healthcare decision-making, particularly those that influence utilization review processes. It mandates transparency regarding the strengths and limitations of these algorithms, including known biases and performance variability.",
+    "keyRequirements": [
+      "Healthcare insurers must disclose the strengths and limitations of AI-based algorithms to enrollees, providers, and the public.",
+      "Algorithms must comply with national interoperability standards and protect enrollee privacy.",
+      "Healthcare insurers cannot make decisions solely based on AI outputs; human oversight is required.",
+      "Regular audits of automated decision-making systems must be conducted to ensure compliance and equity in outcomes.",
+      "Quality assurance testing of AI algorithms must be established and results published publicly."
+    ],
+    "sponsor": "Representative L. Johnson"
+  },
+  {
+    "id": "AR-HB1518",
+    "billNumber": "AR HB1518",
+    "state": "Arkansas",
+    "status": "Introduced",
+    "lastUpdated": "2025-03-18",
+    "summary": "To Create The Offense Of Creating, Distributing, Possessing, Or Viewing Artificial Intelligence-generated Matter Depicting Sexually Explicit Conduct Involving A Child.",
+    "originalLink": "https://legiscan.com/AR/text/HB1518/id/3128106/Arkansas-2025-HB1518-Draft.pdf",
+    "title": "AN ACT CONCERNING IMAGES GENERATED BY ARTIFICIAL INTELLIGENCE; TO CREATE THE OFFENSE OF CREATING, DISTRIBUTING, POSSESSING, OR VIEWING ARTIFICIAL INTELLIGENCE -GENERATED MATTER DEPICTING SEXUALLY EXPLICIT CONDUCT INVOLVING A CHILD; AND FOR OTHER PURPOSES.",
+    "dateIntroduced": "2025-02-17",
+    "scope": "This bill applies to individuals who create, distribute, possess, or view artificial intelligence-generated matter depicting sexually explicit conduct involving a child. It targets any person who knowingly engages in these activities, regardless of their profession or affiliation.",
+    "modelsCovered": "The bill covers artificial intelligence systems and technologies capable of generating visual depictions that are indistinguishable from real children engaging in sexually explicit conduct. This includes any computer technology that processes and interprets specific data inputs to create such depictions.",
+    "keyRequirements": [
+      "Knowingly use artificial intelligence to create depictions of a child engaging in sexually explicit conduct that are indistinguishable from actual depictions.",
+      "Receive, sell, or distribute artificial intelligence-generated depictions that are indistinguishable from actual depictions of children engaging in sexually explicit conduct.",
+      "Possess or view artificial intelligence-generated depictions that are indistinguishable from actual depictions of children engaging in sexually explicit conduct."
+    ],
+    "sponsor": "Representative S. Meeks"
+  },
+  {
+    "id": "AR-HB1071",
+    "billNumber": "AR HB1071",
+    "state": "Arkansas",
+    "status": "Enacted",
+    "lastUpdated": "2025-02-26",
+    "summary": "To Amend The Frank Broyles Publicity Rights Protection Act Of 2016; And To Provide Protections For An Individual Whose Photograph, Voice, Or Likeness Is Reproduced Through Means Of Artificial Intelligence And Used Commercially.",
+    "originalLink": "https://legiscan.com/AR/text/HB1071/id/3142397/Arkansas-2025-HB1071-Chaptered.pdf",
+    "title": "AN ACT TO AMEND THE FRANK BROYLES PUBLICITY RIGHTS PROTECTION ACT OF 2016; TO PROVIDE PROTECTIONS FOR AN INDIVIDUAL WHOSE PHOTOGRAPH, VOICE, OR LIKENESS IS REPRODUCED THROUGH MEANS OF ARTIFICIAL INTELLIGENCE AND USED COMMERCIALLY",
+    "dateIntroduced": "2025-02-11",
+    "scope": "This bill applies to individuals whose photographs, voices, or likenesses are reproduced and used commercially, particularly in contexts involving artificial intelligence. It aims to protect the rights of these individuals against unauthorized commercial use of their likenesses.",
+    "modelsCovered": "The bill covers artificial intelligence technologies that generate likenesses, photographs, or voices of individuals. It specifically mentions the use of AI in the reproduction of these attributes, including simulations of voices and images.",
+    "keyRequirements": [
+      "Amends definitions of 'likeness' and 'photograph' to include AI-generated reproductions.",
+      "Establishes that individuals have rights over their likenesses and voices when reproduced through AI.",
+      "Service providers must not have actual knowledge of violations regarding the use of photographs, voices, or likenesses."
+    ],
+    "sponsor": "Representative R. Scott Richardson"
+  },
+  {
+    "id": "CA-SB11",
+    "billNumber": "CA SB11",
+    "state": "California",
+    "status": "Failed",
+    "lastUpdated": "2025-10-13",
+    "summary": "Artificial intelligence technology.",
+    "originalLink": "https://legiscan.com/CA/text/SB11/2025",
+    "title": "Artificial Intelligence Technology",
+    "dateIntroduced": "2025-10-13",
+    "scope": "This bill applies to companies and organizations that develop, deploy, or utilize artificial intelligence technologies. It is intended to regulate the use of AI in various sectors to ensure ethical practices and compliance with safety standards.",
+    "modelsCovered": "The bill covers a range of AI models, including machine learning algorithms, natural language processing systems, and automated decision-making technologies. It aims to address the implications of these technologies on privacy, security, and fairness.",
+    "keyRequirements": [
+      "Establish transparency in AI algorithms and decision-making processes.",
+      "Implement measures to protect user data and privacy.",
+      "Conduct regular audits of AI systems to ensure compliance with ethical standards.",
+      "Provide clear guidelines for accountability in AI deployment."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB853",
+    "billNumber": "CA AB853",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-10-13",
+    "summary": "California AI Transparency Act.",
+    "originalLink": "https://legiscan.com/CA/text/AB853/id/3273369/California-2025-AB853-Chaptered.html",
+    "title": "California AI Transparency Act",
+    "dateIntroduced": "2025-10-13",
+    "scope": "This bill applies to companies that develop or deploy artificial intelligence systems. It is aimed at ensuring transparency in the use of AI technologies across various sectors, including both private and public entities.",
+    "modelsCovered": "The bill covers AI models that are used for decision-making processes that significantly impact individuals or groups. This includes machine learning systems, natural language processing technologies, and any AI applications that may affect employment, credit, or other critical areas.",
+    "keyRequirements": [
+      "Companies must disclose the use of AI systems in decision-making processes.",
+      "Entities are required to provide clear information on how AI models function and the data they utilize.",
+      "Regular audits of AI systems must be conducted to ensure compliance with transparency standards."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB1064",
+    "billNumber": "CA AB1064",
+    "state": "California",
+    "status": "Failed",
+    "lastUpdated": "2025-10-13",
+    "summary": "Leading Ethical AI Development (LEAD) for Kids Act.",
+    "originalLink": "https://legiscan.com/CA/text/AB1064/id/3269436/California-2025-AB1064-Enrolled.html",
+    "title": "Leading Ethical AI Development (LEAD) for Kids Act",
+    "dateIntroduced": "2025-10-13",
+    "scope": "This bill applies to developers and companies that create AI technologies aimed at children. It is designed to ensure that all AI systems interacting with minors adhere to ethical standards and practices.",
+    "modelsCovered": "The bill covers AI models and systems that are specifically designed for educational purposes or entertainment for children. This includes any AI technologies that analyze data related to children's interactions and behaviors.",
+    "keyRequirements": [
+      "Developers must ensure transparency in AI algorithms used for children.",
+      "AI systems must prioritize the safety and privacy of minors.",
+      "Regular audits must be conducted to assess compliance with ethical standards.",
+      "Developers are required to provide clear guidelines on data usage and consent.",
+      "Educational institutions using AI must have protocols in place for monitoring AI interactions."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB316",
+    "billNumber": "CA AB316",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-10-13",
+    "summary": "Artificial intelligence: defenses.",
+    "originalLink": "https://legiscan.com/CA/text/AB316/id/3273371/California-2025-AB316-Chaptered.html",
+    "title": "Artificial intelligence: defenses",
+    "dateIntroduced": "2025-10-13",
+    "scope": "This bill applies to entities that utilize artificial intelligence technologies in their operations. It is particularly relevant for companies that develop or deploy AI systems across various sectors, including technology, healthcare, and finance.",
+    "modelsCovered": "The bill covers a range of artificial intelligence models and systems, including machine learning algorithms, natural language processing tools, and automated decision-making systems. It aims to address the legal implications and defenses associated with the use of these technologies.",
+    "keyRequirements": [
+      "Establish clear guidelines for the ethical use of AI technologies.",
+      "Implement transparency measures for AI decision-making processes.",
+      "Provide mechanisms for accountability in AI system failures."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB489",
+    "billNumber": "CA AB489",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-10-11",
+    "summary": "Health care professions: deceptive terms or letters: artificial intelligence.",
+    "originalLink": "https://legiscan.com/CA/text/AB489/id/3272936/California-2025-AB489-Chaptered.html",
+    "title": "Health care professions: deceptive terms or letters: artificial intelligence",
+    "dateIntroduced": "2025-10-11",
+    "scope": "This bill applies to health care professionals and organizations that utilize artificial intelligence in their practices. It aims to regulate the use of deceptive terms or letters related to AI in health care settings, ensuring transparency and accountability in communication with patients and the public.",
+    "modelsCovered": "The bill covers artificial intelligence systems used in health care professions, particularly those that may mislead patients through the use of deceptive terminology. It seeks to establish guidelines for the ethical use of AI technologies in health care.",
+    "keyRequirements": [
+      "Health care professionals must avoid using deceptive terms related to AI.",
+      "Organizations must ensure transparency in the use of AI technologies.",
+      "Clear communication regarding the capabilities and limitations of AI systems is required."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB524",
+    "billNumber": "CA SB524",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-10-10",
+    "summary": "Law enforcement agencies: artificial intelligence.",
+    "originalLink": "https://legiscan.com/CA/text/SB524/id/3272865/California-2025-SB524-Chaptered.html",
+    "title": "Law enforcement agencies: artificial intelligence",
+    "dateIntroduced": "2025-10-10",
+    "scope": "This bill applies to law enforcement agencies within the state of California. It addresses the use of artificial intelligence technologies in policing and law enforcement practices.",
+    "modelsCovered": "The bill covers various artificial intelligence models and systems utilized by law enforcement agencies, particularly those that involve data analysis, surveillance, and decision-making processes. It aims to regulate the deployment of these technologies to ensure ethical and responsible use.",
+    "keyRequirements": [
+      "Law enforcement agencies must establish guidelines for the use of AI technologies.",
+      "Agencies are required to conduct impact assessments before deploying AI systems.",
+      "Transparency in AI decision-making processes must be maintained.",
+      "Regular audits of AI systems must be conducted to ensure compliance with ethical standards."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB979",
+    "billNumber": "CA AB979",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-10-03",
+    "summary": "California Cybersecurity Integration Center: artificial intelligence.",
+    "originalLink": "https://legiscan.com/CA/text/AB979/id/3272061/California-2025-AB979-Chaptered.html",
+    "title": "California Cybersecurity Integration Center: artificial intelligence",
+    "dateIntroduced": "2025-10-03",
+    "scope": "This bill applies to government agencies and organizations involved in cybersecurity within the state of California. It aims to enhance the state's ability to manage and respond to cybersecurity threats, particularly those involving artificial intelligence technologies.",
+    "modelsCovered": "The bill covers AI systems and technologies that are utilized in cybersecurity operations. This includes models used for threat detection, response automation, and data analysis to improve cybersecurity measures.",
+    "keyRequirements": [
+      "Establishment of a Cybersecurity Integration Center to coordinate efforts across agencies.",
+      "Implementation of AI technologies to enhance threat detection capabilities.",
+      "Regular reporting on the effectiveness of AI systems in cybersecurity."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB53",
+    "billNumber": "CA SB53",
+    "state": "California",
+    "status": "Enacted",
+    "lastUpdated": "2025-09-29",
+    "summary": "Artificial intelligence models: large developers.",
+    "originalLink": "https://legiscan.com/CA/text/SB53/id/3271094/California-2025-SB53-Chaptered.html",
+    "title": "Artificial Intelligence Models: Large Developers",
+    "dateIntroduced": "2025-09-29",
+    "scope": "This bill applies to large developers of artificial intelligence models, particularly those that have significant market influence or technological capabilities. It is designed to regulate the practices and responsibilities of these developers in relation to their AI systems and technologies.",
+    "modelsCovered": "The bill covers a range of artificial intelligence models, particularly those that are large-scale and have the potential to impact various sectors. This includes machine learning systems, natural language processing models, and other advanced AI technologies that are deployed by large developers.",
+    "keyRequirements": [
+      "Developers must ensure transparency in their AI systems and disclose how data is used.",
+      "Compliance with ethical guidelines for AI development and deployment is mandatory.",
+      "Regular audits of AI systems to assess compliance with safety and ethical standards.",
+      "Establish mechanisms for accountability in the event of AI system failures or misuse."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB503",
+    "billNumber": "CA SB503",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-09-10",
+    "summary": "Health care services: artificial intelligence.",
+    "originalLink": "https://legiscan.com/CA/text/SB503/id/3267762/California-2025-SB503-Amended.htm",
+    "title": "Health care services: artificial intelligence",
+    "dateIntroduced": "2025-09-10",
+    "scope": "This bill applies to health care providers and organizations that utilize artificial intelligence in the delivery of health care services. It aims to regulate the use of AI technologies in various health care settings to ensure patient safety and data privacy.",
+    "modelsCovered": "The bill covers AI models and systems that are used for diagnostic purposes, treatment recommendations, and patient management in health care. It includes technologies that analyze patient data and provide insights to health care professionals.",
+    "keyRequirements": [
+      "Health care providers must ensure that AI systems are validated for accuracy and reliability before use.",
+      "Providers must maintain transparency with patients regarding the use of AI in their care.",
+      "Data privacy and security measures must be implemented to protect patient information when using AI technologies."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB69",
+    "billNumber": "CA SB69",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-08-29",
+    "summary": "Artificial intelligence program: Attorney General.",
+    "originalLink": "https://legiscan.com/CA/text/SB69/id/3259688/California-2025-SB69-Amended.html",
+    "title": "Artificial intelligence program: Attorney General",
+    "dateIntroduced": "2025-08-29",
+    "scope": "This bill applies to government agencies, specifically the office of the Attorney General in California. It is aimed at regulating the use and implementation of artificial intelligence technologies within these agencies.",
+    "modelsCovered": "The bill covers various artificial intelligence systems and models that may be utilized by the Attorney General's office. This includes any AI technologies that assist in legal processes, data analysis, and decision-making.",
+    "keyRequirements": [
+      "Establish guidelines for the ethical use of AI technologies.",
+      "Ensure transparency in AI decision-making processes.",
+      "Mandate regular audits of AI systems used by the Attorney General's office."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB384",
+    "billNumber": "CA SB384",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-08-29",
+    "summary": "Preventing Algorithmic Price Fixing Act: prohibition on certain price-setting algorithm uses.",
+    "originalLink": "https://legiscan.com/CA/text/SB384/id/3262257/California-2025-SB384-Amended.html",
+    "title": "Preventing Algorithmic Price Fixing Act",
+    "dateIntroduced": "2025-08-29",
+    "scope": "This bill applies to companies that utilize algorithmic pricing systems to set prices for goods and services. It is particularly relevant for industries where pricing strategies can significantly impact market competition and consumer choice.",
+    "modelsCovered": "The bill covers algorithmic pricing models that use data analytics and machine learning to determine pricing strategies. It specifically addresses systems that may lead to price fixing or anti-competitive behavior.",
+    "keyRequirements": [
+      "Prohibition on the use of algorithms that facilitate price fixing.",
+      "Mandatory reporting of algorithmic pricing strategies to regulatory authorities.",
+      "Implementation of transparency measures regarding algorithmic decision-making processes."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB1405",
+    "billNumber": "CA AB1405",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-08-29",
+    "summary": "Artificial intelligence: auditors: enrollment.",
+    "originalLink": "https://legiscan.com/CA/text/AB1405/id/3261197/California-2025-AB1405-Amended.html",
+    "title": "Artificial intelligence: auditors: enrollment",
+    "dateIntroduced": "2025-08-29",
+    "scope": "This bill applies to organizations that utilize artificial intelligence systems in their operations. It is particularly relevant for companies that employ AI technologies for auditing and enrollment processes.",
+    "modelsCovered": "The bill covers various artificial intelligence models and systems that are used in auditing and enrollment. This includes machine learning algorithms and automated decision-making systems that impact enrollment decisions.",
+    "keyRequirements": [
+      "Organizations must ensure transparency in AI auditing processes.",
+      "Companies are required to provide clear documentation of AI systems used for enrollment.",
+      "Regular audits of AI systems must be conducted to ensure compliance with established standards."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB833",
+    "billNumber": "CA SB833",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-08-29",
+    "summary": "Critical infrastructure: artificial intelligence systems: human oversight.",
+    "originalLink": "https://legiscan.com/CA/text/SB833/id/3262151/California-2025-SB833-Amended.html",
+    "title": "Critical infrastructure: artificial intelligence systems: human oversight",
+    "dateIntroduced": "2025-08-29",
+    "scope": "This bill applies to entities involved in the development, deployment, or management of artificial intelligence systems that are considered critical infrastructure. It encompasses a wide range of industries where AI systems play a significant role in operational processes, including but not limited to technology, transportation, and public safety sectors.",
+    "modelsCovered": "The bill covers artificial intelligence systems that are utilized in critical infrastructure settings. This includes machine learning models, decision-making algorithms, and automated systems that impact public safety and essential services. The focus is on ensuring that these systems have adequate human oversight to mitigate risks associated with their deployment.",
+    "keyRequirements": [
+      "Establish protocols for human oversight of AI systems in critical infrastructure.",
+      "Implement transparency measures regarding the functioning of AI systems.",
+      "Conduct regular assessments of AI systems to ensure compliance with safety standards.",
+      "Provide training for personnel involved in overseeing AI systems."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SCR82",
+    "billNumber": "CA SCR82",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-08-18",
+    "summary": "Public higher education: artificial intelligence usage.",
+    "originalLink": "https://legiscan.com/CA/text/SCR82/id/3238708/California-2025-SCR82-Introduced.html",
+    "title": "Public higher education: artificial intelligence usage",
+    "dateIntroduced": "2025-08-18",
+    "scope": "This bill applies to public higher education institutions in the state of California. It addresses the usage of artificial intelligence technologies within these institutions, impacting students, faculty, and administrative operations.",
+    "modelsCovered": "The bill covers various artificial intelligence models and systems utilized in educational settings. It focuses on technologies that assist in teaching, learning, and administrative functions within public higher education.",
+    "keyRequirements": [
+      "Establish guidelines for the ethical use of AI in educational contexts.",
+      "Ensure transparency in AI decision-making processes affecting students.",
+      "Provide training for faculty and staff on the responsible use of AI technologies."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-AB412",
+    "billNumber": "CA AB412",
+    "state": "California",
+    "status": "Passed House",
+    "lastUpdated": "2025-07-09",
+    "summary": "Generative artificial intelligence: training data: copyrighted materials.",
+    "originalLink": "https://legiscan.com/CA/text/AB412/id/3232078/California-2025-AB412-Amended.html",
+    "title": "Generative artificial intelligence: training data: copyrighted materials",
+    "dateIntroduced": "2025-07-09",
+    "scope": "This bill applies to entities that utilize generative artificial intelligence technologies, particularly those involved in the training of AI models using copyrighted materials. It is relevant to companies, developers, and researchers in the AI field who handle copyrighted data.",
+    "modelsCovered": "The bill covers generative AI models that are trained on datasets containing copyrighted materials. This includes any AI systems that generate content based on the training data derived from such copyrighted sources.",
+    "keyRequirements": [
+      "Entities must obtain permission from copyright holders before using their materials for training AI models.",
+      "Developers must implement measures to ensure compliance with copyright laws when training AI systems.",
+      "Transparency in the use of copyrighted materials in AI training datasets is required."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB93",
+    "billNumber": "CA SB93",
+    "state": "California",
+    "status": "In Committee",
+    "lastUpdated": "2025-05-23",
+    "summary": "Weapons: robotic devices.",
+    "originalLink": "https://legiscan.com/CA/text/SB93/id/3201520/California-2025-SB93-Amended.html",
+    "title": "Weapons: robotic devices",
+    "dateIntroduced": "2025-05-23",
+    "scope": "This bill applies to the regulation of weapons that utilize robotic devices. It is intended to address the use of such technologies in both civilian and military contexts, ensuring that they are used safely and responsibly.",
+    "modelsCovered": "The bill covers robotic devices that are designed for weaponization, including unmanned aerial vehicles (UAVs) and other automated systems capable of engaging targets. It aims to regulate the deployment and operation of these technologies to prevent misuse and ensure compliance with safety standards.",
+    "keyRequirements": [
+      "Establish safety protocols for the operation of robotic weapons.",
+      "Require registration and licensing for the use of robotic devices as weapons.",
+      "Implement guidelines for the ethical use of robotic weapons in military and civilian applications."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CA-SB366",
+    "billNumber": "CA SB366",
+    "state": "California",
+    "status": "In Committee",
+    "lastUpdated": "2025-05-23",
+    "summary": "Employment: artificial intelligence.\n[Detail][Text][Discuss]",
+    "originalLink": "https://legiscan.com/CA/text/SB366/id/3207689/California-2025-SB366-Amended.html",
+    "title": "Employment: artificial intelligence",
+    "dateIntroduced": "2025-05-23",
+    "scope": "This bill applies to employers in California who utilize artificial intelligence in their hiring processes. It is designed to ensure that the use of AI does not lead to discriminatory practices against job applicants.",
+    "modelsCovered": "The bill covers AI systems that are used for employment decisions, particularly those that assess candidates' suitability for positions based on various data inputs. It includes algorithms and machine learning models that influence hiring outcomes.",
+    "keyRequirements": [
+      "Employers must disclose the use of AI in hiring processes to applicants.",
+      "Employers are required to conduct impact assessments to evaluate potential biases in AI systems.",
+      "Employers must provide candidates with the option to opt-out of AI assessments."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CO-SB318",
+    "billNumber": "CO SB318",
+    "state": "Colorado",
+    "status": "Failed",
+    "lastUpdated": "2025-05-05",
+    "summary": "Concerning consumer protections in interactions with artificial intelligence systems.",
+    "originalLink": "https://legiscan.com/CO/text/SB318/id/3223608/Colorado-2025-SB318-Introduced.pdf",
+    "title": "Concerning consumer protections in interactions with artificial intelligence systems.",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to developers and deployers of high-risk artificial intelligence systems operating within the state of Colorado. It includes provisions for companies that develop or deploy AI systems that may impact consumers, particularly those making consequential decisions.",
+    "modelsCovered": "The bill covers high-risk artificial intelligence systems that make or are a substantial factor in making consequential decisions affecting consumers. It specifies certain exceptions for technologies that do not significantly influence decision-making processes.",
+    "keyRequirements": [
+      "Developers must use reasonable care to protect consumers from known risks of algorithmic discrimination.",
+      "Deployers are required to implement a risk management policy to identify and mitigate risks of algorithmic discrimination.",
+      "Developers must disclose known risks of algorithmic discrimination to the attorney general and affected deployers.",
+      "Deployers must provide consumers with clear disclosures regarding the use of AI systems in decision-making.",
+      "Developers must maintain documentation related to the AI systems for at least three years after the last deployment."
+    ],
+    "sponsor": "Rodriguez"
+  },
+  {
+    "id": "CO-HB1212",
+    "billNumber": "CO HB1212",
+    "state": "Colorado",
+    "status": "Introduced",
+    "lastUpdated": "2025-05-05",
+    "summary": "Concerning public safety protection from the risks of artificial intelligence systems.",
+    "originalLink": "https://legiscan.com/CO/text/HB1212/id/3114047/Colorado-2025-HB1212-Introduced.pdf",
+    "title": "Concerning public safety protection from the risks of artificial intelligence systems.",
+    "dateIntroduced": "2025-05-05",
+    "scope": "This bill applies to developers of artificial intelligence systems, specifically those who have trained a foundation model and employ workers. It includes employers defined under the Fair Labor Standards Act and entities that contract with independent contractors in Colorado.",
+    "modelsCovered": "The bill covers foundation artificial intelligence models, which are defined as AI models trained on broad data, using self-supervision in the training process, and applicable across a wide range of contexts.",
+    "keyRequirements": [
+      "Developers must not retaliate against workers for disclosing information regarding public safety risks.",
+      "Developers must provide notice to all workers about their rights and responsibilities under the bill.",
+      "Developers must create an internal process for anonymous disclosures of risks to public safety.",
+      "Developers must provide monthly updates to workers who make disclosures regarding the status of investigations.",
+      "Aggrieved workers may commence civil actions against developers for violations of the bill."
+    ],
+    "sponsor": "Rutinel and Soper"
+  },
+  {
+    "id": "CO-SB022",
+    "billNumber": "CO SB022",
+    "state": "Colorado",
+    "status": "Failed",
+    "lastUpdated": "2025-01-29",
+    "summary": "Concerning the application of artificial intelligence to predict, prevent, or assist in fighting wildfires, and, in connection therewith, making an appropriation.",
+    "originalLink": "https://legiscan.com/CO/text/SB022/id/3043558/Colorado-2025-SB022-Introduced.pdf",
+    "title": "Concerning the application of artificial intelligence to predict, prevent, or assist in fighting wildfires, and, in connection therewith, making an appropriation.",
+    "dateIntroduced": "2025-01-29",
+    "scope": "This bill applies to the Division of Fire Prevention and Control within the State of Colorado. It mandates the appropriation of funds for the development and application of artificial intelligence technologies specifically aimed at wildfire prediction and management.",
+    "modelsCovered": "The bill covers artificial intelligence applications that can predict, mitigate, or assist in fighting wildfires. This includes systems that analyze data for vegetation classification, wildfire ignition potential, ongoing wildfire perimeters, and spread predictions.",
+    "keyRequirements": [
+      "The General Assembly must appropriate $7,500,000 for the fiscal year 2024-25.",
+      "The Division of Fire Prevention and Control is required to use the funds to study and develop AI applications related to wildfires.",
+      "The Division may contract with third parties that have developed relevant AI tools.",
+      "Any unexpended funds from the appropriation remain available for the following fiscal year."
+    ],
+    "sponsor": "Baisley and Marchman"
+  },
+  {
+    "id": "CT-SB00002",
+    "billNumber": "CT SB00002",
+    "state": "Connecticut",
+    "status": "In Committee",
+    "lastUpdated": "2025-05-16",
+    "summary": "To (1) establish various requirements concerning artificial intelligence systems, (2) require the Department of Economic and Community Development to (A) establish an artificial intelligence regulatory sandbox program, (B) plan to establish a technol...",
+    "originalLink": "https://legiscan.com/CT/text/SB00002/id/3235701/Connecticut-2025-SB00002-Comm_Sub.pdf",
+    "title": "AN ACT CONCERNING ARTIFICIAL INTELLIGENCE",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to developers, integrators, and deployers of high-risk artificial intelligence systems and general-purpose artificial intelligence models operating within the state of Connecticut. It includes individuals and entities that develop, integrate, or deploy AI technologies that may impact consumers.",
+    "modelsCovered": "The bill covers high-risk artificial intelligence systems that are intended to make consequential decisions affecting consumers, as well as general-purpose artificial intelligence models capable of being used in such systems. It includes any machine-based systems that infer from inputs to generate outputs that can influence environments.",
+    "keyRequirements": [
+      "Developers must use reasonable care to protect consumers from known risks of algorithmic discrimination.",
+      "Developers of high-risk AI systems must provide documentation on intended uses and known risks to deployers.",
+      "Integrators must enter into contracts with developers and ensure compliance with risk management policies.",
+      "Deployers must implement and maintain a risk management policy to govern the deployment of AI systems.",
+      "Deployers must notify consumers when a high-risk AI system is used to make consequential decisions.",
+      "Developers must disclose known risks of algorithmic discrimination to the Attorney General and affected deployers."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CT-SB01484",
+    "billNumber": "CT SB01484",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-05-07",
+    "summary": "To (1) limit the use of electronic monitoring by an employer, and (2) establish various requirements concerning the use of artificial intelligence systems by employers.",
+    "originalLink": "https://legiscan.com/CT/text/SB01484/id/3231121/Connecticut-2025-SB01484-Comm_Sub.pdf",
+    "title": "An Act Implementing Artificial Intelligence Protections for Employees",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to employers, which include any person, firm, or corporation, including the state and any political subdivision of the state that has employees. It specifically addresses the use of electronic monitoring and artificial intelligence systems in the workplace, impacting all employers with such technologies.",
+    "modelsCovered": "The bill covers high-risk artificial intelligence systems that are used to make consequential decisions affecting employees. These systems include any machine-based systems that infer outputs from inputs and can influence physical or virtual environments, particularly in employment contexts.",
+    "keyRequirements": [
+      "Employers must provide prior written notice to employees about the types of electronic monitoring that may occur.",
+      "Employers must conduct an impact assessment with an impartial third party before deploying high-risk artificial intelligence systems.",
+      "Employers must notify employees if a high-risk artificial intelligence system is used to make consequential decisions affecting them.",
+      "Employers cannot retaliate against employees for refusing to follow decisions made by high-risk artificial intelligence systems if certain conditions are met.",
+      "Employers must implement human oversight over automated decision-making processes involving high-risk artificial intelligence systems."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CT-SB01440",
+    "billNumber": "CT SB01440",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-04-23",
+    "summary": "To criminalize unauthorized dissemination of intimate images that are digitally altered or created through the use of artificial intelligence.",
+    "originalLink": "https://legiscan.com/CT/text/SB01440/id/3218977/Connecticut-2025-SB01440-Comm_Sub.pdf",
+    "title": "AN ACT CONCERNING UNLAWFUL DISSEMINATION OF AN INTIMATE SYNTHETICALLY CREATED IMAGE",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to individuals who disseminate intimate synthetically created images of another person without their consent. It specifically targets those who create or share images that depict private body parts or sexual acts, intending to deceive viewers into believing the images are real.",
+    "modelsCovered": "The bill addresses synthetically created images, which include photographs, films, or other images that are not wholly recorded by a camera and are either partially or wholly generated by a computer system. These images must be virtually indistinguishable from actual depictions of identifiable persons.",
+    "keyRequirements": [
+      "Intentionally disseminate intimate synthetically created images without the consent of the depicted person.",
+      "Ensure that the dissemination does not occur if the depicted person is not clearly identifiable.",
+      "Avoid creating or acquiring images with the intention to harm the depicted person."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CT-SB01292",
+    "billNumber": "CT SB01292",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-04-07",
+    "summary": "To require (1) an owner or operator of an artificial intelligence data center to submit quarterly reports to the Commissioner of Energy and Environmental Protection, and (2) the commissioner to adopt regulations concerning water and energy efficiency...",
+    "originalLink": "https://legiscan.com/CT/text/SB01292/id/3203524/Connecticut-2025-SB01292-Comm_Sub.pdf",
+    "title": "AN ACT REQUIRING A STUDY CONCERNING ENERGY EFFICIENCY REQUIREMENTS FOR ARTIFICIAL INTELLIGENCE DATA CENTERS",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to owners or operators of artificial intelligence data centers. It mandates them to submit reports to the Commissioner of Energy and Environmental Protection regarding their energy efficiency practices.",
+    "modelsCovered": "The bill covers artificial intelligence data centers, focusing on their energy efficiency performance standards and practices. It addresses the implementation of energy management systems and the use of renewable energy resources.",
+    "keyRequirements": [
+      "Owners or operators of artificial intelligence data centers must submit quarterly reports to the Commissioner of Energy and Environmental Protection.",
+      "The Commissioner must conduct a study on energy efficiency performance standards for artificial intelligence data centers.",
+      "The study must consider best practices for energy efficiency, energy management systems, renewable energy use, demand response program participation, and limitations on diesel backup generators."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "CT-HB06479",
+    "billNumber": "CT HB06479",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-24",
+    "summary": "To (1) prohibit any social media algorithm that targets any individual younger than seventeen years of age, including, but not limited to, by tracking such individual's age or telephone number, and (2) prohibit inclusion of a continuous feed in the s...",
+    "originalLink": "https://legiscan.com/CT/text/HB06479/id/3076255/Connecticut-2025-HB06479-Introduced.pdf",
+    "title": "AN ACT CONCERNING MINORS AND SOCIAL MEDIA",
+    "dateIntroduced": "2025-01-24",
+    "scope": "This bill applies to social media algorithms that target individuals younger than seventeen years of age. It specifically addresses the practices of tracking age or telephone numbers of these individuals.",
+    "modelsCovered": "The bill covers social media algorithms that utilize tracking methods to target minors. It also addresses the inclusion of continuous feeds in social media accounts of individuals under seventeen.",
+    "keyRequirements": [
+      "Prohibit any social media algorithm that targets individuals younger than seventeen years of age.",
+      "Prohibit tracking of age or telephone number of individuals younger than seventeen.",
+      "Prohibit inclusion of a continuous feed in the social media account of individuals younger than seventeen."
+    ],
+    "sponsor": "REP. MARRA T., 141st Dist."
+  },
+  {
+    "id": "CT-HB05877",
+    "billNumber": "CT HB05877",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-22",
+    "summary": "To prohibit the use of artificial intelligence to replace public school educators in providing instruction to and regular interaction with students.",
+    "originalLink": "https://legiscan.com/CT/text/HB05877/id/3069357/Connecticut-2025-HB05877-Introduced.pdf",
+    "title": "AN ACT PROHIBITING THE USE OF ARTIFICIAL INTELLIGENCE TO REPLACE TEACHERS",
+    "dateIntroduced": "2025-01-22",
+    "scope": "This bill applies to public school educators in the state of Connecticut. It specifically addresses the role of educators in providing instruction and regular interaction with students, ensuring that artificial intelligence does not replace these essential functions.",
+    "modelsCovered": "The bill covers any artificial intelligence systems or technologies that could be used to replace public school educators in instructional roles. It emphasizes the importance of human interaction in the educational process, thereby limiting the use of AI in these contexts.",
+    "keyRequirements": [
+      "Prohibit the use of artificial intelligence to replace public school educators in providing instruction.",
+      "Ensure regular interaction with students is maintained by human educators."
+    ],
+    "sponsor": "REP. NAPOLI, 73rd Dist."
+  },
+  {
+    "id": "CT-HB05587",
+    "billNumber": "CT HB05587",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-21",
+    "summary": "To prohibit any health insurer from using artificial intelligence as the primary method to deny health insurance claims.",
+    "originalLink": "https://legiscan.com/CT/text/HB05587/id/3066089/Connecticut-2025-HB05587-Introduced.pdf",
+    "title": "AN ACT PROHIBITING HEALTH INSURERS FROM USING ARTIFICIAL INTELLIGENCE AS THE PRIMARY METHOD TO DENY HEALTH INSURANCE CLAIMS.",
+    "dateIntroduced": "2025-01-21",
+    "scope": "This bill applies to health insurers operating within the state of Connecticut. It specifically targets the practices of these insurers in relation to the denial of health insurance claims.",
+    "modelsCovered": "The bill covers the use of artificial intelligence systems and models that are utilized by health insurers to evaluate and deny health insurance claims. It prohibits these entities from relying on AI as the primary method for such decisions.",
+    "keyRequirements": [
+      "Health insurers are prohibited from using artificial intelligence as the primary method to deny health insurance claims."
+    ],
+    "sponsor": "REP. MENAPACE, 37th Dist."
+  },
+  {
+    "id": "CT-HB05598",
+    "billNumber": "CT HB05598",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-21",
+    "summary": "To establish a criminal offense for the creation and dissemination of artificial intelligence-generated pornography.",
+    "originalLink": "https://legiscan.com/CT/text/HB05598/id/3065942/Connecticut-2025-HB05598-Introduced.pdf",
+    "title": "AN ACT PROHIBITING THE CREATION AND DISSEMINATION OF ARTIFICIAL INTELLIGENCE -GENERATED PORNOGRAPHIC IMAGES OF A PERSON WITHOUT CONSENT",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to individuals who create and disseminate artificial intelligence-generated pornographic images of other persons without their consent. It specifically addresses the actions of those involved in the production and distribution of such content.",
+    "modelsCovered": "The bill covers any artificial intelligence systems or technologies that are capable of generating pornographic images of individuals. This includes any AI models that can create realistic representations of persons without their consent.",
+    "keyRequirements": [
+      "Prohibits the creation of artificial intelligence-generated pornographic images of a person without their consent.",
+      "Prohibits the dissemination of such images without consent."
+    ],
+    "sponsor": "REP. CANINO"
+  },
+  {
+    "id": "CT-SB00817",
+    "billNumber": "CT SB00817",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-21",
+    "summary": "To prohibit any health insurer from using a software tool, including, but not limited to, artificial intelligence or an algorithm, to automatically downcode or deny a health insurance claim submitted by a health care provider without detailed review ...",
+    "originalLink": "https://legiscan.com/CT/text/SB00817/id/3065397/Connecticut-2025-SB00817-Introduced.pdf",
+    "title": "AN ACT PROHIBITING HEALTH INSURERS FROM USING SOFTWARE TOOLS TO AUTOMATICALLY DOWNCODE HEALTH INSURANCE CLAIMS.",
+    "dateIntroduced": "2025-01-21",
+    "scope": "This bill applies to health insurers operating within the state of Connecticut. It specifically targets the practices related to the processing of health insurance claims submitted by health care providers.",
+    "modelsCovered": "The bill covers software tools used by health insurers, including but not limited to artificial intelligence and algorithms. These technologies are specifically mentioned in the context of their use in downcoding or denying health insurance claims.",
+    "keyRequirements": [
+      "Health insurers are prohibited from using software tools to automatically downcode health insurance claims.",
+      "Claims submitted by health care providers must undergo a detailed review by a clinical peer before any downcoding or denial.",
+      "The bill mandates that any denial of claims cannot be based solely on automated processes."
+    ],
+    "sponsor": "SEN. LOONEY, 11th Dist."
+  },
+  {
+    "id": "CT-HB05590",
+    "billNumber": "CT HB05590",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-21",
+    "summary": "To prohibit any health insurer from using artificial intelligence to deny health insurance claims.",
+    "originalLink": "https://legiscan.com/CT/text/HB05590/id/3066220/Connecticut-2025-HB05590-Introduced.pdf",
+    "title": "AN ACT PROHIBITING HEALTH INSURERS FROM USING ARTIFICIAL INTELLIGENCE TO DENY HEALTH INSURANCE CLAIMS",
+    "dateIntroduced": "2025-01-01",
+    "scope": "This bill applies to health insurers operating within the state of Connecticut. It specifically targets the practices of these insurers regarding the use of artificial intelligence in the claims process.",
+    "modelsCovered": "The bill covers any artificial intelligence systems or technologies that health insurers might use to evaluate or deny health insurance claims. This includes algorithms and machine learning models that influence decision-making in claims processing.",
+    "keyRequirements": [
+      "Health insurers are prohibited from using artificial intelligence to deny health insurance claims."
+    ],
+    "sponsor": "REP. CHAFEE, 33rd Dist."
+  },
+  {
+    "id": "CT-HB05076",
+    "billNumber": "CT HB05076",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-10",
+    "summary": "To promote energy and water consumption efficiency in artificial intelligence data centers.",
+    "originalLink": "https://legiscan.com/CT/text/HB05076/id/3046571/Connecticut-2025-HB05076-Introduced.pdf",
+    "title": "AN ACT CONCERNING ENERGY AND WATER EFFICIENCY REQUIREMENTS FOR ARTIFICIAL INTELLIGENCE DATA CENTERS",
+    "dateIntroduced": "2025-01-10",
+    "scope": "This bill applies to artificial intelligence data centers, requiring them to meet specific energy and water efficiency standards. It targets facilities that utilize AI technologies and are involved in data processing and storage.",
+    "modelsCovered": "The bill does not specify particular AI models or systems but broadly covers artificial intelligence data centers, which are facilities that support AI operations through data processing and storage.",
+    "keyRequirements": [
+      "Utilize energy derived from renewable sources for not less than fifty percent of the energy consumption requirements.",
+      "Utilize energy storage systems and modern grid infrastructure.",
+      "Implement water conservation measures.",
+      "Report annual energy consumption, water consumption, and emissions.",
+      "Provide tax credits, grants, and research funding for the development of such centers."
+    ],
+    "sponsor": "REP. ROSARIO"
+  },
+  {
+    "id": "CT-SB00447",
+    "billNumber": "CT SB00447",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-10",
+    "summary": "To prohibit health carriers from using artificial intelligence in the evaluation and determination of patient care to safeguard patient access to testing, medications and procedures.",
+    "originalLink": "https://legiscan.com/CT/text/SB00447/id/3046620/Connecticut-2025-SB00447-Introduced.pdf",
+    "title": "AN ACT PROHIBITING HEALTH CARRIERS FROM USING ARTIFICIAL INTELLIGENCE IN THE EVALUATION AND DETERMINATION OF PATIENT CARE",
+    "dateIntroduced": "2025-01-10",
+    "scope": "This bill applies to health carriers, which are organizations that provide health insurance coverage. It aims to protect patients by ensuring that their access to necessary testing, medications, and procedures is not hindered by the use of artificial intelligence in decision-making processes.",
+    "modelsCovered": "The bill covers the use of artificial intelligence systems that are employed by health carriers to evaluate and determine patient care. It specifically prohibits these entities from utilizing AI technologies in their decision-making processes regarding patient treatment.",
+    "keyRequirements": [
+      "Health carriers are prohibited from using artificial intelligence in patient care evaluations.",
+      "The bill aims to safeguard patient access to testing, medications, and procedures."
+    ],
+    "sponsor": "SEN. ANWAR"
+  },
+  {
+    "id": "CT-SB00348",
+    "billNumber": "CT SB00348",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-09",
+    "summary": "To criminalize unauthorized dissemination of intimate images that are digitally altered or created through the use of artificial intelligence.",
+    "originalLink": "https://legiscan.com/CT/text/SB00348/id/3043349/Connecticut-2025-SB00348-Introduced.pdf",
+    "title": "AN ACT CONCERNING UNLAWFUL DISSEMINATION OF INTIMATE IMAGES THAT ARE DIGITALLY ALTERED OR CREATED THROUGH THE USE OF ARTIFICIAL INTELLIGENCE",
+    "dateIntroduced": "2025-01-09",
+    "scope": "This bill applies to individuals who engage in the unauthorized dissemination of intimate images. It specifically targets those who alter or create such images using artificial intelligence technologies.",
+    "modelsCovered": "The bill covers any artificial intelligence systems or technologies that are used to digitally alter or create intimate images. This includes a broad range of AI applications that may manipulate images in a way that misrepresents the individuals depicted.",
+    "keyRequirements": [
+      "Criminalize unauthorized dissemination of intimate images",
+      "Address images that are digitally altered or created using AI"
+    ],
+    "sponsor": "SEN. HWANG, 28th Dist."
+  },
+  {
+    "id": "CT-HB05048",
+    "billNumber": "CT HB05048",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-08",
+    "summary": "To study the effect of artificial intelligence on the trades industry.",
+    "originalLink": "https://legiscan.com/CT/text/HB05048/id/3042076/Connecticut-2025-HB05048-Introduced.pdf",
+    "title": "AN ACT REQUIRING A STUDY OF THE EFFECT OF ARTIFICIAL INTELLIGENCE ON THE TRADES INDUSTRY",
+    "dateIntroduced": "2025-01-08",
+    "scope": "This bill applies to trade workers within the trades industry. It aims to assess the impact of artificial intelligence on job displacement and educational curriculum relevant to technical education and career systems.",
+    "modelsCovered": "The bill does not specify particular AI models or technologies. However, it implies a focus on artificial intelligence systems that may influence job roles and training in the trades sector.",
+    "keyRequirements": [
+      "Conduct a study on the effect of artificial intelligence on trade workers",
+      "Include analysis of job displacement due to AI",
+      "Examine the curriculum of the Technical Education and Career System"
+    ],
+    "sponsor": "REP. LANOUE, 45th Dist."
+  },
+  {
+    "id": "CT-HB05047",
+    "billNumber": "CT HB05047",
+    "state": "Connecticut",
+    "status": "Introduced",
+    "lastUpdated": "2025-01-08",
+    "summary": "To study the practicality and use of increased artificial intelligence by the state and automation of the size and scope of the state workforce.",
+    "originalLink": "https://legiscan.com/CT/text/HB05047/id/3041955/Connecticut-2025-HB05047-Introduced.pdf",
+    "title": "AN ACT CREATING A TASK FORCE TO STUDY ARTIFICIAL INTELLIGENCE AND THE STATE WORKFORCE",
+    "dateIntroduced": "2025-01-08",
+    "scope": "This bill applies to the state government and its workforce. It aims to assess the implications of increasing artificial intelligence usage and automation within the state workforce.",
+    "modelsCovered": "The bill does not specify particular AI models or systems but focuses on the general use of artificial intelligence by the state. It emphasizes the automation of workforce size and scope.",
+    "keyRequirements": [
+      "Establish a task force to study the effect of artificial intelligence on the state workforce",
+      "Evaluate the fiscal impact of increased artificial intelligence usage",
+      "Assess the automation of the size and scope of the state workforce"
+    ],
+    "sponsor": "REP. LANOUE, 45th Dist."
+  }
+]
