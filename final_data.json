@@ -1,0 +1,31 @@
+[
+    {
+        "bill": "HCR3",
+        "bill_url": "[https://legiscan.com/AK/bill/HCR3/2025](https://legiscan.com/AK/bill/HCR3/2025)",
+        "status": "Intro  Recessed",
+        "summary": "Ai Legislative Task Force\n\n[Detail]\n[Text]\n[Discuss]",
+        "last_action_date": "2025-05-16",
+        "last_action_text": "To House Finance Committee",
+        "summary_links.detail": "[https://legiscan.com/AK/bill/HCR3/2025](https://legiscan.com/AK/bill/HCR3/2025)",
+        "summary_links.text": "[https://legiscan.com/AK/text/HCR3/2025](https://legiscan.com/AK/text/HCR3/2025)",
+        "summary_links.discuss": "[https://legiscan.com/AK/comments/HCR3/2025](https://legiscan.com/AK/comments/HCR3/2025)",
+        "state": "AK",
+        "title": "CS for House Concurrent Resolution No. 3 (Establishing the Joint Legislative Task Force on Artificial Intelligence)",
+        "date_introduced": "2025-04-11",
+        "sponsor": "Representatives Rauscher; Costello",
+        "scope": "Establishes a Joint Legislative Task Force on Artificial Intelligence to examine the development, implementation, regulation, economic opportunities, workforce implications, and ethical/privacy/legal issues of AI as it relates to Alaska state government operations and statewide AI use.",
+        "models_covered": "Broadly covers artificial intelligence tools and technologies including expert systems, machine learning models, generative agents, related hardware platforms and software systems, and generated images.",
+        "key_requirements": [
+            "Create a set of common terms and definitions to support task force work and future legislation",
+            "Evaluate current and potential applications and costs of AI in state government operations (data management, public service delivery, decision-making, efficiency, staffing)",
+            "Assess economic opportunities from AI development including entrepreneurship, data centers, and technology hubs",
+            "Investigate ethical, legal, and privacy concerns related to AI use and generated images in public and private sectors",
+            "Explore workforce implications and recommend training and education initiatives for AI-related employment",
+            "Recommend policies and legislation to ensure responsible and secure AI use inside and outside state government",
+            "Develop a long-term strategic plan and recommended budgets to foster AI innovation while safeguarding public interests",
+            "Submit a report of findings and recommendations to the legislature by January 31, 2026; task force expires February 2, 2026"
+        ],
+        "source_file": ""
+    },
+
+]
