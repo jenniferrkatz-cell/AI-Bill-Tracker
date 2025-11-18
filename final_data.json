@@ -1,31 +1,139 @@
-[
-    {
-        "bill": "HCR3",
-        "bill_url": "[https://legiscan.com/AK/bill/HCR3/2025](https://legiscan.com/AK/bill/HCR3/2025)",
-        "status": "Intro  Recessed",
-        "summary": "Ai Legislative Task Force\n\n[Detail]\n[Text]\n[Discuss]",
-        "last_action_date": "2025-05-16",
-        "last_action_text": "To House Finance Committee",
-        "summary_links.detail": "[https://legiscan.com/AK/bill/HCR3/2025](https://legiscan.com/AK/bill/HCR3/2025)",
-        "summary_links.text": "[https://legiscan.com/AK/text/HCR3/2025](https://legiscan.com/AK/text/HCR3/2025)",
-        "summary_links.discuss": "[https://legiscan.com/AK/comments/HCR3/2025](https://legiscan.com/AK/comments/HCR3/2025)",
-        "state": "AK",
-        "title": "CS for House Concurrent Resolution No. 3 (Establishing the Joint Legislative Task Force on Artificial Intelligence)",
-        "date_introduced": "2025-04-11",
-        "sponsor": "Representatives Rauscher; Costello",
-        "scope": "Establishes a Joint Legislative Task Force on Artificial Intelligence to examine the development, implementation, regulation, economic opportunities, workforce implications, and ethical/privacy/legal issues of AI as it relates to Alaska state government operations and statewide AI use.",
-        "models_covered": "Broadly covers artificial intelligence tools and technologies including expert systems, machine learning models, generative agents, related hardware platforms and software systems, and generated images.",
-        "key_requirements": [
-            "Create a set of common terms and definitions to support task force work and future legislation",
-            "Evaluate current and potential applications and costs of AI in state government operations (data management, public service delivery, decision-making, efficiency, staffing)",
-            "Assess economic opportunities from AI development including entrepreneurship, data centers, and technology hubs",
-            "Investigate ethical, legal, and privacy concerns related to AI use and generated images in public and private sectors",
-            "Explore workforce implications and recommend training and education initiatives for AI-related employment",
-            "Recommend policies and legislation to ensure responsible and secure AI use inside and outside state government",
-            "Develop a long-term strategic plan and recommended budgets to foster AI innovation while safeguarding public interests",
-            "Submit a report of findings and recommendations to the legislature by January 31, 2026; task force expires February 2, 2026"
+{
+    "summary_links": {
+        "https://legiscan.com/AK/text/HCR3/2025": [
+            "https://legiscan.com/AK/text/HCR3/id/3210303/Alaska-2025-HCR3-Comm_Sub.pdf"
         ],
-        "source_file": ""
-    },
-
-]
+        "https://legiscan.com/AK/text/SB2/2025": [
+            "https://legiscan.com/AK/text/SB2/id/3049420/Alaska-2025-SB2-Introduced.pdf"
+        ],
+        "https://legiscan.com/AL/text/HB515/2025": [
+            "https://legiscan.com/AL/text/HB515/id/3200577/Alabama-2025-HB515-Introduced.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1504/2025": [
+            "https://legiscan.com/AR/text/HB1504/id/3126287/Arkansas-2025-HB1504-Draft.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1876/2025": [
+            "https://legiscan.com/AR/text/HB1876/id/3218145/Arkansas-2025-HB1876-Chaptered.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1935/2025": [
+            "https://legiscan.com/AR/text/HB1935/id/3216777/Arkansas-2025-HB1935-Chaptered.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1958/2025": [
+            "https://legiscan.com/AR/text/HB1958/id/3217014/Arkansas-2025-HB1958-Chaptered.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1816/2025": [
+            "https://legiscan.com/AR/text/HB1816/id/3178301/Arkansas-2025-HB1816-Draft.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1297/2025": [
+            "https://legiscan.com/AR/text/HB1297/id/3088585/Arkansas-2025-HB1297-Draft.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1518/2025": [
+            "https://legiscan.com/AR/text/HB1518/id/3128106/Arkansas-2025-HB1518-Draft.pdf"
+        ],
+        "https://legiscan.com/AR/text/HB1071/2025": [
+            "https://legiscan.com/AR/text/HB1071/id/3142397/Arkansas-2025-HB1071-Chaptered.pdf"
+        ],
+        "https://legiscan.com/CA/text/AB853/2025": [
+            "https://legiscan.com/CA/text/AB853/id/3273369/California-2025-AB853-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/AB1064/2025": [
+            "https://legiscan.com/CA/text/AB1064/id/3269436/California-2025-AB1064-Enrolled.html"
+        ],
+        "https://legiscan.com/CA/text/SB69/2025": [
+            "https://legiscan.com/CA/text/SB69/id/3259688/California-2025-SB69-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/SB384/2025": [
+            "https://legiscan.com/CA/text/SB384/id/3262257/California-2025-SB384-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/AB1405/2025": [
+            "https://legiscan.com/CA/text/AB1405/id/3261197/California-2025-AB1405-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/SB833/2025": [
+            "https://legiscan.com/CA/text/SB833/id/3262151/California-2025-SB833-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/SCR82/2025": [
+            "https://legiscan.com/CA/text/SCR82/id/3238708/California-2025-SCR82-Introduced.html"
+        ],
+        "https://legiscan.com/CA/text/AB412/2025": [
+            "https://legiscan.com/CA/text/AB412/id/3232078/California-2025-AB412-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/SB93/2025": [
+            "https://legiscan.com/CA/text/SB93/id/3201520/California-2025-SB93-Amended.html"
+        ],
+        "https://legiscan.com/CA/text/SB366/2025": [
+            "https://legiscan.com/CA/text/SB366/id/3207689/California-2025-SB366-Amended.html"
+        ],
+        "https://legiscan.com/CO/text/SB318/2025": [
+            "https://legiscan.com/CO/text/SB318/id/3223608/Colorado-2025-SB318-Introduced.pdf"
+        ],
+        "https://legiscan.com/CO/text/HB1212/2025": [
+            "https://legiscan.com/CO/text/HB1212/id/3114047/Colorado-2025-HB1212-Introduced.pdf"
+        ],
+        "https://legiscan.com/CO/text/SB022/2025": [
+            "https://legiscan.com/CO/text/SB022/id/3043558/Colorado-2025-SB022-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB00002/2025": [
+            "https://legiscan.com/CT/text/SB00002/id/3235701/Connecticut-2025-SB00002-Comm_Sub.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB01484/2025": [
+            "https://legiscan.com/CT/text/SB01484/id/3231121/Connecticut-2025-SB01484-Comm_Sub.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB01440/2025": [
+            "https://legiscan.com/CT/text/SB01440/id/3218977/Connecticut-2025-SB01440-Comm_Sub.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB01292/2025": [
+            "https://legiscan.com/CT/text/SB01292/id/3203524/Connecticut-2025-SB01292-Comm_Sub.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB06479/2025": [
+            "https://legiscan.com/CT/text/HB06479/id/3076255/Connecticut-2025-HB06479-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05877/2025": [
+            "https://legiscan.com/CT/text/HB05877/id/3069357/Connecticut-2025-HB05877-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05587/2025": [
+            "https://legiscan.com/CT/text/HB05587/id/3066089/Connecticut-2025-HB05587-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05598/2025": [
+            "https://legiscan.com/CT/text/HB05598/id/3065942/Connecticut-2025-HB05598-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB00817/2025": [
+            "https://legiscan.com/CT/text/SB00817/id/3065397/Connecticut-2025-SB00817-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05590/2025": [
+            "https://legiscan.com/CT/text/HB05590/id/3066220/Connecticut-2025-HB05590-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05076/2025": [
+            "https://legiscan.com/CT/text/HB05076/id/3046571/Connecticut-2025-HB05076-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB00447/2025": [
+            "https://legiscan.com/CT/text/SB00447/id/3046620/Connecticut-2025-SB00447-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/SB00348/2025": [
+            "https://legiscan.com/CT/text/SB00348/id/3043349/Connecticut-2025-SB00348-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05048/2025": [
+            "https://legiscan.com/CT/text/HB05048/id/3042076/Connecticut-2025-HB05048-Introduced.pdf"
+        ],
+        "https://legiscan.com/CT/text/HB05047/2025": [
+            "https://legiscan.com/CT/text/HB05047/id/3041955/Connecticut-2025-HB05047-Introduced.pdf"
+        ],
+        "https://legiscan.com/CA/text/AB316/2025": [
+            "https://legiscan.com/CA/text/AB316/id/3273371/California-2025-AB316-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/AB489/2025": [
+            "https://legiscan.com/CA/text/AB489/id/3272936/California-2025-AB489-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/SB524/2025": [
+            "https://legiscan.com/CA/text/SB524/id/3272865/California-2025-SB524-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/AB979/2025": [
+            "https://legiscan.com/CA/text/AB979/id/3272061/California-2025-AB979-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/SB53/2025": [
+            "https://legiscan.com/CA/text/SB53/id/3271094/California-2025-SB53-Chaptered.html"
+        ],
+        "https://legiscan.com/CA/text/SB503/2025": [
+            "https://legiscan.com/CA/text/SB503/id/3267762/California-2025-SB503-Amended.htm"
+        ]
+    }
+}
