@@ -195,6 +195,24 @@
     "sponsor": "Unknown"
   },
   {
+    "id": "FL-S0794",
+    "billNumber": "FL S0794",
+    "state": "Florida",
+    "status": "Failed",
+    "lastUpdated": "2025-06-16",
+    "summary": "Requiring that insurers' decisions to deny claims or any portion of a claim be made by qualified human professionals; prohibiting using algorithms, artificial intelligence, or machine learning systems as the sole basis for determining whether to adju...",
+    "originalLink": "https://legiscan.com/FL/text/S0794/id/3189455/Florida-2025-S0794-Comm_Sub.html",
+    "title": "Unknown",
+    "dateIntroduced": "2025-06-16",
+    "scope": "This bill applies to insurers making decisions regarding claims. It specifically targets insurance companies that are involved in the claims process and require human professionals to assess claims rather than relying solely on automated systems.",
+    "modelsCovered": "The bill addresses the use of algorithms, artificial intelligence, and machine learning systems in the claims adjustment process. It prohibits these technologies from being used as the sole basis for determining whether to adjust claims.",
+    "keyRequirements": [
+      "Insurers must ensure that decisions to deny claims or any portion of a claim are made by qualified human professionals.",
+      "Algorithms, artificial intelligence, or machine learning systems cannot be the sole basis for claims decisions."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
     "id": "FL-H0369",
     "billNumber": "FL H0369",
     "state": "Florida",
@@ -212,6 +230,24 @@
       "Social media platforms must retain and make available provenance data for uploaded content.",
       "Developers must provide a provenance reader for public access.",
       "Violations of the provisions constitute an unfair or deceptive act or practice."
+    ],
+    "sponsor": "Unknown"
+  },
+  {
+    "id": "FL-S0936",
+    "billNumber": "FL S0936",
+    "state": "Florida",
+    "status": "Failed",
+    "lastUpdated": "2025-04-29",
+    "summary": "Requiring the Bureau of Workforce Statistics and Economic Research of the Department of Commerce to study the economic impact of automation, artificial intelligence, and robotics on employment in the state; authorizing the bureau to consult with spec...",
+    "originalLink": "https://legiscan.com/FL/text/S0936/id/3133453/Florida-2025-S0936-Introduced.html",
+    "title": "Unknown",
+    "dateIntroduced": "2025-04-29",
+    "scope": "The bill applies to government entities, specifically the Bureau of Workforce Statistics and Economic Research of the Department of Commerce in Florida. It mandates the bureau to conduct a study on the economic impact of automation, artificial intelligence, and robotics on employment within the state.",
+    "modelsCovered": "The bill addresses the impact of automation, artificial intelligence, and robotics as a collective category, without specifying particular types of AI systems or models. It focuses on the economic implications of these technologies on employment rather than on specific AI technologies.",
+    "keyRequirements": [
+      "Conduct a study on the economic impact of automation, artificial intelligence, and robotics on employment in Florida.",
+      "Consult with specified stakeholders during the study."
     ],
     "sponsor": "Unknown"
   },

@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
 """
 Script to update originalLink in extracted_bills.json with PDF document URLs from all_states.json
+
+Usage:
+    python update_original_links.py [extracted_bills.json] [all_states.json]
+    
+If no arguments provided, uses default paths:
+    - extracted_bills.json (in current directory)
+    - backend/all_states.json (relative to script location)
 """
 
 import json
 import sys
+import argparse
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -81,17 +89,40 @@ def update_extracted_bills(extracted_bills: List[Dict], lookup: Dict[str, str]) 
 
 def main():
     """Main function to update originalLink fields."""
+    parser = argparse.ArgumentParser(
+        description="Update originalLink in extracted_bills.json with PDF URLs from all_states.json"
+    )
+    parser.add_argument(
+        'extracted_bills',
+        nargs='?',
+        default='extracted_bills.json',
+        help='Path to extracted_bills.json file (default: extracted_bills.json)'
+    )
+    parser.add_argument(
+        'all_states',
+        nargs='?',
+        default=None,
+        help='Path to all_states.json file (default: backend/all_states.json relative to script)'
+    )
+    
+    args = parser.parse_args()
+    
     print("Updating Original Links Script")
     print("=" * 50)
     
     # Get file paths
-    script_dir = Path(__file__).parent
-    all_states_file = script_dir / "all_states.json"
-    extracted_bills_file = Path("extracted_bills.json")
+    extracted_bills_file = Path(args.extracted_bills)
+    
+    if args.all_states:
+        all_states_file = Path(args.all_states)
+    else:
+        script_dir = Path(__file__).parent
+        all_states_file = script_dir / "all_states.json"
     
     # Check if files exist
     if not all_states_file.exists():
         print(f"ERROR: {all_states_file} not found")
+        print(f"Looking for: {all_states_file.absolute()}")
         return
     
     if not extracted_bills_file.exists():
