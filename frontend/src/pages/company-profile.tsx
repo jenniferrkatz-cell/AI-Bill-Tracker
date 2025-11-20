@@ -57,15 +57,31 @@ const CompanyProfile = () => {
     'Over 1000'
   ];
 
-  const stateOptions = [
-    'Alabama', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut',
-    'Florida', 'Georgia', 'Hawaii', 'Illinois', 'Indiana', 'Iowa', 'Kansas',
-    'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan',
-    'Minnesota', 'Mississippi', 'Missouri', 'Nebraska', 'Nevada', 'New Jersey',
-    'New York', 'North Carolina', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania',
-    'Rhode Island', 'South Carolina', 'Tennessee', 'Texas', 'Utah', 'Vermont',
-    'Virginia', 'Washington', 'West Virginia', 'Wisconsin'
-  ];
+const stateOptions = [
+  'Alabama',
+  'Alaska',
+  'Arkansas',
+  'California',
+  'Colorado',
+  'Connecticut',
+  'Delaware',
+  'Florida',
+  'Georgia',
+  'Hawaii',
+  'Idaho',
+  'Illinois',
+  'Indiana',
+  'Iowa',
+  'Kansas',
+  'Kentucky',
+  'Louisiana',
+  'Maine',
+  'Maryland',
+  'Massachusetts',
+  'Michigan',
+  'Minnesota',
+  'Mississippi'
+];
 
   const industryOptions = [
     'Technology/Software',
@@ -215,9 +231,19 @@ const CompanyProfile = () => {
   };
 
   const analyzeApplicability = () => {
+    const allowedStateSet = new Set(stateOptions);
+    const selectedStatesSet = new Set(profile.states);
     const results: ApplicableBill[] = [];
 
     mockBills.forEach(bill => {
+      if (!allowedStateSet.has(bill.state)) {
+        return;
+      }
+
+      if (selectedStatesSet.size > 0 && !selectedStatesSet.has(bill.state)) {
+        return;
+      }
+
       const reasons: string[] = [];
       let confidence: 'High' | 'Medium' | 'Low' = 'Low';
 
@@ -229,7 +255,7 @@ const CompanyProfile = () => {
       }
 
       // Check revenue thresholds in scope
-      const scope = bill.scope.toLowerCase();
+      const scope = (bill.scope || '').toLowerCase();
       
       if (meetsRevenueThreshold(scope)) {
         if (scope.includes('$100 million') || scope.includes('$100m')) {
@@ -271,7 +297,7 @@ const CompanyProfile = () => {
       }
 
       // Check use case matches
-      const billText = `${bill.title} ${bill.summary} ${bill.scope} ${bill.modelsCovered}`.toLowerCase();
+      const billText = `${bill.title || ''} ${bill.summary || ''} ${bill.scope || ''} ${bill.modelsCovered || ''}`.toLowerCase();
       
       profile.aiUseCases.forEach(useCase => {
         if (useCase.includes('Employment') && (billText.includes('employment') || billText.includes('hiring') || billText.includes('worker'))) {
@@ -398,7 +424,7 @@ const CompanyProfile = () => {
     };
 
     applicableBills.forEach(({ bill }) => {
-      bill.keyRequirements.forEach(req => {
+      (bill.keyRequirements || []).forEach(req => {
         const normalized = req.toLowerCase();
         
         if (normalized.includes('bias') || normalized.includes('discriminat') || normalized.includes('fairness')) {

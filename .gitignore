@@ -9,10 +9,10 @@ venv/
 .idea/
 
 # Environment
-.env
 
 # Node
 node_modules/
 dist/
 scraper/
 extracted_data/
+config.bat
