@@ -351,16 +351,23 @@ Extract and return a JSON object with these exact fields:
 {{
   "title": "Full official title of the bill (string)",
   "dateIntroduced": "Date when bill was introduced in YYYY-MM-DD format (string, or use {fallback_date} if not found)",
-  "scope": "Detailed description of who this bill applies to (e.g., companies, individuals, government agencies, specific industries, size thresholds, etc.) (string, 2-4 sentences)",
-  "modelsCovered": "Description of what AI models, systems, or technologies are covered by this bill (string, 2-4 sentences)",
+  "scope": "Description of WHO this bill applies to - the types of entities, organizations, or individuals subject to the bill. Focus on: entity types (government agencies, private companies, social media platforms, healthcare providers, etc.), size thresholds (revenue, employee count, user base), industry sectors, geographic scope, or other qualifying characteristics. Do NOT include information about AI systems or technologies here. (string, 2-4 sentences)",
+  "modelsCovered": "Description of WHAT AI systems, models, or technologies are covered by this bill. Focus on: types of AI (large language models, generative AI, automated decision systems, etc.), risk categories (high-risk AI, critical AI systems, etc.), specific use cases (healthcare AI, hiring AI, facial recognition, etc.), technical definitions or classifications of AI systems mentioned in the bill. Do NOT include information about which entities must comply. (string, 2-4 sentences)",
   "keyRequirements": ["Requirement 1", "Requirement 2", "Requirement 3", ...] (array of strings, 3-10 items),
   "sponsor": "Name of the primary sponsor or author of the bill (string, or 'Unknown' if not found)"
 }}
+
+CRITICAL DISTINCTION:
+- "scope" (Who Does this Apply To): Focus ONLY on the ENTITIES/ORGANIZATIONS/INDIVIDUALS subject to the law (e.g., "government entities", "social media companies with over 1 million users", "private companies with more than $1M in revenue", "healthcare providers", "employers using automated systems").
+- "modelsCovered" (AI Models Covered): Focus ONLY on the TYPES OF AI SYSTEMS/MODELS at issue (e.g., "high-risk AI systems defined as those used in critical infrastructure", "large language models", "automated decision-making systems in healthcare", "generative AI systems", "facial recognition technology").
+
+These two fields should NOT repeat the same information. "scope" describes WHO must comply, while "modelsCovered" describes WHAT AI technologies are regulated.
 
 Important:
 - Extract actual information from the bill text, don't make up details
 - For keyRequirements, list specific compliance requirements, obligations, or mandates mentioned in the bill
 - Be specific and accurate
+- Keep "scope" and "modelsCovered" distinct - do not overlap information between them
 - If information is not available in the text, use reasonable defaults or "Unknown"
 - Return ONLY valid JSON, no additional text or markdown formatting"""
 
@@ -482,7 +489,7 @@ def main():
     client = OpenAI(api_key=api_key)
     
     # Load data.json
-    data_file = Path("data with urls.json")
+    data_file = Path("all_states.json")
     if not data_file.exists():
         print(f"ERROR: {data_file} not found")
         return
