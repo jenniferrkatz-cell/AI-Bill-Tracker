@@ -49,6 +49,67 @@ STATE_NAMES = {
     "WV": "West Virginia", "WY": "Wyoming", "DC": "District of Columbia"
 }
 
+# Reverse mapping: state name (lowercase) to state code
+# Includes common misspellings found in filenames
+STATE_NAME_TO_CODE = {
+    'alabama': 'AL', 'alaska': 'AK', 'arizona': 'AZ', 'arkansas': 'AR',
+    'california': 'CA', 'colorado': 'CO', 'connecticut': 'CT', 'delaware': 'DE',
+    'florida': 'FL', 'georgia': 'GA', 'hawaii': 'HI', 'idaho': 'ID',
+    'illinois': 'IL', 'indiana': 'IN', 'iowa': 'IA', 'kansas': 'KS',
+    'kentucky': 'KY', 'louisiana': 'LA', 'maine': 'ME', 'maryland': 'MD',
+    'massachusetts': 'MA', 'michigan': 'MI', 'minnesota': 'MN', 'mississippi': 'MS',
+    'missouri': 'MO', 'montana': 'MT', 'nebraska': 'NE', 'nevada': 'NV',
+    'new hampshire': 'NH', 'new jersey': 'NJ', 'new mexico': 'NM', 'new york': 'NY',
+    'north carolina': 'NC', 'north dakota': 'ND', 'ohio': 'OH', 'oklahoma': 'OK',
+    'oregon': 'OR', 'pennsylvania': 'PA', 'rhode island': 'RI', 'south carolina': 'SC',
+    'south dakota': 'SD', 'tennessee': 'TN', 'texas': 'TX', 'utah': 'UT',
+    'vermont': 'VT', 'virginia': 'VA', 'washington': 'WA', 'west virginia': 'WV',
+    'wisconsin': 'WI', 'wyoming': 'WY', 'district of columbia': 'DC',
+    # Handle common misspellings found in filenames
+    'illionois': 'IL',  # Illinois misspelling
+    'massachusets': 'MA',  # Massachusetts misspelling
+    'missisipi': 'MS',  # Mississippi misspelling
+}
+
+
+def normalize_state_code(state_input: str) -> Optional[str]:
+    """Normalize state input to standard 2-letter state code.
+    
+    Handles:
+    - Already valid state codes (e.g., "CA", "NY")
+    - Full state names (e.g., "California", "New York")
+    - Misspelled state names (e.g., "Illionois")
+    - Case variations
+    
+    Returns:
+        Standard 2-letter state code in uppercase, or None if not found
+    """
+    if not state_input:
+        return None
+    
+    state_input = state_input.strip()
+    
+    # If already a 2-letter code (case-insensitive), validate and return
+    if len(state_input) == 2 and state_input.isalpha():
+        state_code = state_input.upper()
+        if state_code in STATE_NAMES:
+            return state_code
+    
+    # Try to match full state name (case-insensitive)
+    state_lower = state_input.lower()
+    
+    # Direct lookup
+    if state_lower in STATE_NAME_TO_CODE:
+        return STATE_NAME_TO_CODE[state_lower]
+    
+    # Try partial match for multi-word states (e.g., "new york", "north carolina")
+    for state_name, code in STATE_NAME_TO_CODE.items():
+        if state_lower in state_name or state_name in state_lower:
+            return code
+    
+    return None
+
+
 # Status mapping from data.json statuses to app statuses
 STATUS_MAPPING = {
     "Intro": "Introduced",
@@ -57,9 +118,14 @@ STATUS_MAPPING = {
     "Intro 25%": "In Committee",
     "Engross 50%": "Passed House",
     "Engross  Sine Die": "Passed House",
+    "Engross  Recessed": "Passed House",
+    "Engross": "Passed House",
     "Pass": "Enacted",
     "Veto": "Failed",
     "Fail": "Failed",
+    "Failed": "Failed",
+    "Enacted": "Enacted",
+    "Chapter": "Enacted",  # Some states use "Chapter" for enacted bills
 }
 
 
@@ -318,14 +384,18 @@ Important:
 
 def process_bill_entry(bill_data: Dict, client: OpenAI, output_dir: Path) -> Dict[str, Any]:
     """Process a single bill entry and extract all required fields."""
-    bill_id = f"{bill_data['state']}-{bill_data['bill']}"
+    # Normalize state code (handle both codes and full names)
+    raw_state = bill_data.get('state', '')
+    state_code = normalize_state_code(raw_state) or raw_state.upper() if raw_state else 'Unknown'
+    
+    bill_id = f"{state_code}-{bill_data['bill']}"
     print(f"\nProcessing {bill_id}...")
     
     # Start with existing data
     result = {
         "id": bill_id,
-        "billNumber": f"{bill_data['state']} {bill_data['bill']}",
-        "state": STATE_NAMES.get(bill_data['state'], bill_data['state']),
+        "billNumber": f"{state_code} {bill_data['bill']}",
+        "state": STATE_NAMES.get(state_code, raw_state if raw_state else 'Unknown'),
         "status": map_status(bill_data.get('status', 'Intro')),
         "lastUpdated": bill_data.get('last_action_date', '2025-01-01'),
         "summary": bill_data.get('summary', '').replace('\n\n[Detail]\n[Text]\n[Discuss]', '').strip(),
@@ -452,11 +522,15 @@ def main():
             failed_bills.append((bill_data.get('bill', 'Unknown'), str(e)))
             # Still add a basic entry so we don't lose the bill
             try:
+                # Normalize state code
+                raw_state = bill_data.get('state', '')
+                state_code = normalize_state_code(raw_state) or raw_state.upper() if raw_state else 'Unknown'
+                
                 basic_entry = {
-                    "id": f"{bill_data['state']}-{bill_data['bill']}",
-                    "billNumber": f"{bill_data['state']} {bill_data['bill']}",
+                    "id": f"{state_code}-{bill_data['bill']}",
+                    "billNumber": f"{state_code} {bill_data['bill']}",
                     "title": bill_data.get('summary', 'Unknown Bill').replace('\n\n[Detail]\n[Text]\n[Discuss]', '').strip(),
-                    "state": STATE_NAMES.get(bill_data['state'], bill_data['state']),
+                    "state": STATE_NAMES.get(state_code, raw_state if raw_state else 'Unknown'),
                     "status": map_status(bill_data.get('status', 'Intro')),
                     "dateIntroduced": bill_data.get('last_action_date', '2025-01-01'),
                     "lastUpdated": bill_data.get('last_action_date', '2025-01-01'),
