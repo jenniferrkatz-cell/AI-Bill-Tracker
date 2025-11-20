@@ -13,14 +13,29 @@ interface FilterControlsProps {
 
 const states = [
   'All States',
+  'Alabama',
+  'Alaska',
+  'Arkansas',
   'California',
   'Colorado',
+  'Connecticut',
+  'Delaware',
   'Florida',
+  'Georgia',
+  'Hawaii',
+  'Idaho',
   'Illinois',
+  'Indiana',
+  'Iowa',
+  'Kansas',
+  'Kentucky',
+  'Louisiana',
+  'Maine',
+  'Maryland',
   'Massachusetts',
-  'New York',
-  'Texas',
-  'Washington'
+  'Michigan',
+  'Minnesota',
+  'Mississippi'
 ];
 
 const statuses = [

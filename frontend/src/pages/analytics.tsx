@@ -128,7 +128,8 @@ const Analytics = () => {
             <CardContent className="pt-6">
               <div className="text-center">
                 <p className="text-sm font-medium text-gray-600">States Covered</p>
-                <p className="text-3xl font-bold text-blue-600 mt-2">{analytics.topStates.length}+</p>
+                {/* <p className="text-3xl font-bold text-blue-600 mt-2">{analytics.topStates.length}+</p> */}
+                <p className="text-3xl font-bold text-blue-600 mt-2">20+</p>
               </div>
             </CardContent>
           </Card>
